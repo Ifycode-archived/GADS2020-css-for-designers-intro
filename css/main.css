@@ -1,0 +1,188 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: calibri, Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    max-width: 1000px;
+    margin: 0 auto;
+    background: url("../img/red_abbey.jpg") 0% 0% /cover;
+    color: #f7f7f7;
+    background-attachment: fixed;
+    line-height: 1.35;
+}
+
+main {
+    background: rgba(0, 0, 0, .5);
+    padding: 60px;
+}
+
+h1 {
+    font-size: 40px;
+    padding: 60px 0 0 0;
+}
+
+h2 {
+    font-size: 25px;
+    margin: 40px 0 10px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+span.red {
+    color: rgb(187, 36, 36);
+    font-weight: 500;
+    background: rgb(0, 0, 0, 0.5);
+    border-left: 1px solid rgb(235, 146, 146);
+    border-right: 1px solid rgb(235, 128, 128);
+    padding: 0 10px;
+    border-radius: 10px 0 10px 0;
+    -webkit-border-radius: 10px 0 10px 0;
+    -moz-border-radius: 10px 0 10px 0;
+    -ms-border-radius: 10px 0 10px 0;
+    -o-border-radius: 10px 0 10px 0;
+}
+
+p {
+    font-size: 18px;
+    margin: 10px 0;
+    max-width: 800px;
+}
+
+li {
+    margin: 0 0 5px 0;
+}
+
+figure {
+    margin: 30px 0;
+}
+
+img {
+    max-width: 100%;
+    filter: saturate(0.9) contrast(0.9);
+    -webkit-filter: saturate(0.9) contrast(0.9);
+}
+
+caption {
+    font-size: 27px;
+    margin: 40px 0 20px 0;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+th {
+    text-align: left;
+    padding: 0 30px 0 0;
+} 
+
+td {
+    padding: 10px 30px 0 0;
+}
+
+/*=============================
+    a:link may not work because 
+    its been visited from
+    (stackoverflow). 
+  ===========================*/
+
+a:link, a:visited {
+    color:  rgb(235, 128, 128);
+}
+
+a:hover {
+    color:  rgb(211, 69, 69);
+}
+
+a:active {
+    color:  rgb(192, 15, 15);
+}
+
+a {
+    transition: color 0.1s ease-in-out;
+    -webkit-transition: color 0.1s ease-in-out;
+    -moz-transition: color 0.1s ease-in-out;
+    -ms-transition: color 0.1s ease-in-out;
+    -o-transition: color 0.1s ease-in-out;
+}
+
+input {
+    border: none;
+    margin: 0 0 0 10px;
+    padding: 10px;
+    background: rgb(226, 226, 226);
+}
+
+fieldset {
+    border: 1px solid;
+    max-width: 400px;
+    /*She used width: 400px though*/
+    padding: 10px 10px 15px 10px;
+}
+
+textarea {
+    border: none;
+    background: #e3e3e3;
+    width: 290px;
+    height: 120px;
+}
+
+button {
+    padding: 12px 24px;
+    border: none;
+    background: rgba(187, 36, 36, 0.6);
+    color: #f7f7f7;
+    font-family: calibri, Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.1s ease-in-out, border-radius 0.02s linear, padding 0.2s 0.1s ease-in-out;
+    -webkit-transition: background-color 0.1s ease-in-out, border-radius 0.02s linear, padding 0.2s 0.1s ease-in-out;
+    -moz-transition: background-color 0.1s ease-in-out, border-radius 0.02s linear, padding 0.2s 0.1s ease-in-out;
+    -ms-transition: background-color 0.1s ease-in-out, border-radius 0.02s linear, padding 0.2s 0.1s ease-in-out;
+    -o-transition: background-color 0.1s ease-in-out, border-radius 0.02s linear, padding 0.2s 0.1s ease-in-out;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+button:hover {
+    padding: 12px 24px 12px 40px;
+    background: rgb(165, 54, 54);
+    border-radius: 0 25px 25px 0;
+    -webkit-border-radius: 0 25px 25px 0;
+    -moz-border-radius: 0 25px 25px 0;
+    -ms-border-radius: 0 25px 25px 0;
+    -o-border-radius: 0 25px 25px 0;
+}
+
+p.next-page {
+    margin: 40px 0 0 0;
+    font-size: 19px;
+}
+
+p.additional-info {
+    width: max-content;
+    font-size: 19px;
+    background: rgba(0, 0, 0, 0.5);
+    color: rgb(235, 128, 128);
+    padding: 10px 10px 10px 0;
+    margin: 0;
+}
+
+p.footer {
+    margin: 80px 0;
+}
+
+
+
